@@ -1,0 +1,1171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wiidisc version="1">
+  <id game="RMC" disc="0" version="0">
+	<region type="E"/>
+
+  </id>
+  <options>
+    
+
+    <section name="Texture Hacks">
+
+
+      <option id="intro_screen_en" name="Health and Safety screen" default="0">
+        <choice name="Ronak's Intro">
+          <patch id="ronaks_intro_en" />
+        </choice>
+      </option>
+
+      <option id="any_alteration_1" name="Courses" default="1">
+        <choice name="Ronak's Pack">
+          <patch id="ronaks_textured_courses" />
+        </choice>
+        <choice name="My Custom Pack">
+          <patch id="my_pack_courses" />
+        </choice>
+      </option>
+
+      <option id="any_alteration_2" name="Characters" default="2">
+        <choice name="Ronak's Pack">
+          <patch id="ronaks_textured_characters" />
+        </choice>
+        <choice name="My Custom Pack">
+          <patch id="my_pack_characters" />
+        </choice>
+      </option>
+
+      <option id="any_alteration_3" name="Items + Drift Colors" default="3">
+        <choice name="Ronak's Pack">
+          <patch id="ronaks_textured_items" />
+        </choice>
+        <choice name="My Custom Pack">
+          <patch id="my_pack_items" />
+        </choice>
+      </option>
+
+      <option id="menu_screens" name="Main Menu Themes" default="4">
+        <choice name="Revolution (Black)">
+          <patch id="menu_screen_patch" />
+        </choice>
+        <choice name="Revolution + TPL">
+          <patch id="menu_screen_tpl_edit_patch" />
+        </choice>
+        <choice name="My Custom Theme">
+          <patch id="my_pack_theme" />
+        </choice>
+      </option>
+
+      <option id="dkw_timer_theme" name="DKW Timer Theme" default="20">
+        <choice name="Enabled">
+          <patch id="dkw_timer_theme" />
+        </choice>
+      </option>
+
+    </section>
+
+    <section name="CTGPs (v1.02.0003 BETA)">
+
+      <option id="CTs" name="CTGP Revolution v1.02.0003 BETA" default="1">
+        <choice name="Enabled">
+          <patch id="CTsFTW" />
+        </choice>
+      </option>
+
+      <option id="cv_fix" name="Chomp Valley Texture Fix" default="1">
+        <choice name="Enabled">
+          <patch id="cvfix" />
+        </choice>
+      </option>
+
+     <option name="Save to SD card?" default="1">
+	<choice name="Enabled">
+  	   <patch id="redirectsave" /> 
+  	</choice>
+      </option>
+
+   </section>
+
+
+    <section name="Music Hacks">
+
+
+      <option id="custom_music_hacks" name="Custom Music Hacks" default="2">
+        <choice name="My Music Hacks">
+          <patch id="my_music_hacks" />
+        </choice>
+        <choice name="Ronak's Music Hacks">
+          <patch id="ronaks_music_hacks" />
+        </choice>
+      </option>
+
+      <option id="music_disable" name="Remove Game Music?" default="2">
+        <choice name="Remove Track Music">
+          <patch id="track_disable" />
+        </choice>
+        <choice name="Remove Replay Music">
+          <patch id="replay_disable" />
+        </choice>
+        <choice name="Remove Both Track/Replay Music">
+          <patch id="all_disable" />
+        </choice>
+      </option>
+
+   </section>
+
+    <section name="Other Modifications">
+
+<option id="wiimmfi" name="Wiimm-Fi Patcher" default="1">
+    <choice name="Enabled">
+     <patch id="wiimmfi" />
+    </choice>
+   </option>
+
+     <option id="custom_regionals" name="Custom Regionals" default="0">
+        <choice name="America">
+          <patch id="america_regional" />
+        </choice>
+	<choice name="Japan">
+          <patch id="japan_regional" />
+        </choice>
+	<choice name="Europe">
+          <patch id="europe_regional" />
+        </choice>
+	<choice name="Oceania">
+          <patch id="oceania_regional" />
+        </choice>
+	<choice name="Taiwan">
+          <patch id="taiwan_regional" />
+        </choice>
+	<choice name="Korea">
+          <patch id="korea_regional" />
+        </choice>
+	<choice name="China">
+          <patch id="china_regional" />
+        </choice>
+      </option>
+
+      <option id="text_alteration" name="MKW Text Edits" default="1">
+        <choice name="Enabled">
+          <patch id="mkw_text_edits" />
+        </choice>
+      </option>
+
+     <option id="fonts" name="Special Fonts" default="0">
+        <choice name="Chalky">
+          <patch id="font_chalky" />
+        </choice>
+	<choice name="Outline">
+          <patch id="font_outline" />
+        </choice>
+	<choice name="MV Boli">
+          <patch id="font_boli" />
+        </choice>
+      </option>
+
+      <option id="ghost_database" name="Ghost Database" default="1">
+        <choice name="Enabled">
+          <patch id="ghost_database" />
+        </choice>
+      </option>
+
+      <option id="any_alteration" name="My Stuff folder" default="1">
+        <choice name="Enabled">
+          <patch id="any_alteration_patch" />
+        </choice>
+      </option>
+
+
+
+   </section>
+
+   
+  </options>
+
+
+  <patch id="ronaks_intro_en">
+    <folder external="/mkwii/Ronak's Texture Hacks/Ronak's Intro" recursive="false" /> 
+    <folder external="/mkwii/Ronak's Texture Hacks/Ronak's Intro" disc="/" /> 
+  </patch>
+
+  <patch id="ronaks_textured_courses">
+    <folder external="/mkwii/Ronak's Texture Hacks/Courses" recursive="false" /> 
+    <folder external="/mkwii/Ronak's Texture Hacks/Courses" disc="/" /> 
+  </patch>
+
+  <patch id="my_pack_course">
+    <folder external="/mkwii/Custom Texture Hack Packs/My Texture Hack Pack/Courses" recursive="false" /> 
+    <folder external="/mkwii/Custom Texture Hack Packs/My Texture Hack Pack/Courses" disc="/" /> 
+  </patch>
+
+  <patch id="ronaks_textured_characters">
+    <folder external="/mkwii/Ronak's Texture Hacks/Characters" recursive="false" /> 
+    <folder external="/mkwii/Ronak's Texture Hacks/Characters" disc="/" /> 
+  </patch>
+
+  <patch id="my_pack_characters">
+    <folder external="/mkwii/Custom Texture Hack Packs/My Texture Hack Pack/Characters" recursive="false" /> 
+    <folder external="/mkwii/Custom Texture Hack Packs/My Texture Hack Pack/Characters" disc="/" /> 
+  </patch>
+
+  <patch id="ronaks_textured_items">
+    <file disc="/Race/Common.szs" external="/mkwii/Ronak's Texture Hacks/Items/Common.szs" />
+  </patch>
+  <patch id="my_pack_items">
+    <file disc="/Race/Common.szs" external="/mkwii/Custom Texture Hack Packs/My Texture Hack Pack/Items/Common.szs" />
+  </patch>
+
+  <patch id="menu_screen_patch">
+    <file disc="/Scene/UI/Globe.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black)/Globe.szs" />
+    <file disc="/Scene/UI/MenuSingle.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black)/MenuSingle.szs" />
+    <file disc="/Scene/UI/MenuOther.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black)/MenuOther.szs" />
+    <file disc="/Scene/UI/MenuMulti.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black)/MenuMulti.szs" />
+    <file disc="/Scene/UI/Title.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black)/Title.szs" />
+  </patch>
+
+  <patch id="menu_screen_tpl_edit_patch">
+    <file disc="/Demo/Award.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black) + TPL Edits/Award.szs" />
+    <file disc="/Scene/Model/Driver.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black) + TPL Edits/Driver.szs" />
+    <file disc="/Scene/UI/Globe.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black) + TPL Edits/Globe.szs" />
+    <file disc="/Scene/UI/Earth.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black) + TPL Edits/Earth.szs" />
+    <file disc="/Scene/UI/MenuSingle.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black) + TPL Edits/MenuSingle.szs" />
+    <file disc="/Scene/UI/MenuOther.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black) + TPL Edits/MenuOther.szs" />
+    <file disc="/Scene/UI/MenuMulti.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black) + TPL Edits/MenuMulti.szs" />
+    <file disc="/Scene/UI/Race.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black) + TPL Edits/Race.szs" />
+    <file disc="/Scene/UI/Race_U.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black) + TPL Edits/Race_U.szs" />
+    <file disc="/Scene/UI/Race_M.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black) + TPL Edits/Race_M.szs" />
+    <file disc="/Scene/UI/Race_Q.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black) + TPL Edits/Race_Q.szs" />
+    <file disc="/Scene/UI/Title.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black) + TPL Edits/Title.szs" />
+    <file disc="/Scene/UI/Title_U.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black) + TPL Edits/Title_U.szs" />
+    <file disc="/Scene/UI/Title_M.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black) + TPL Edits/Title_M.szs" />
+    <file disc="/Scene/UI/Title_Q.szs" external="/mkwii/Ronak's Texture Hacks/Main Menu Themes/Revolution (Black) + TPL Edits/Title_Q.szs" />
+  </patch>
+
+  <patch id="dkw_timer_theme">
+    <file disc="/rel/StaticR.rel" external="/mkwii/DKW Timer Theme/DKW USA.rel" />
+  </patch>
+
+  <patch id="my_pack_theme">
+    <folder external="/mkwii/Custom Texture Hack Packs/My Texture Hack Pack/Theme + TPL Edits" recursive="false" /> 
+    <folder external="/mkwii/Custom Texture Hack Packs/My Texture Hack Pack/Theme + TPL Edits" disc="/" /> 
+  </patch>
+
+  <patch id="my_music_hacks">
+    <folder external="/mkwii/Custom Music Hacks/My Music Hacks" recursive="false" /> 
+    <folder external="/mkwii/Custom Music Hacks/My Music Hacks" disc="/" /> 
+  </patch>
+
+  <patch id="ronaks_music_hacks">
+    <folder external="/mkwii/Custom Music Hacks/Ronak's Music Hacks" recursive="false" /> 
+    <folder external="/mkwii/Custom Music Hacks/Ronak's Music Hacks" disc="/" /> 
+  </patch>
+
+  <patch id="track_disable">
+    <file disc="/sound/strm/n_circuit32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_circuit32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_farm_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_farm_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_kinoko_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_kinoko_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_FACTORY_N.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_FACTORY_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_shopping32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_shopping32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_snowboard32_n.brstm" external="/mkwii/Ronak's Texture Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_snowboard32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_TRUCK_N.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_TRUCK_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_daisy32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_daisy32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_WATER_N.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_WATER_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_maple_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_maple_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_volcano32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_volcano32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_DESERT_N.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_DESERT_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_RIDGEHIGHWAY_N.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_RIDGEHIGHWAY_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_KOOPA_N.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_KOOPA_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_rainbow32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_rainbow32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_gc_beach32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_gc_beach32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_ds_jungle32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_ds_jungle32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_sfc_obake32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_sfc_obake32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_64_circuit32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_64_circuit32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_64_sherbet32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_64_sherbet32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_agb_beach32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_agb_beach32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_ds_town32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_ds_town32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_gc_stadium32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_gc_stadium32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_ds_desert32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_ds_desert32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_agb_kuppa32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_agb_kuppa32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_64_jungle32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_64_jungle32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_gc_circuit32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_gc_circuit32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_sfc_circuit32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_sfc_circuit32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_ds_garden32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_ds_garden32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_gc_mountain32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_gc_mountain32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_64_kuppa32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_64_kuppa32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+  </patch>
+
+  <patch id="replay_disable">
+    <file disc="/sound/strm/o_Wi-Fi_waiting32.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+  </patch>
+
+  <patch id="all_disable">
+    <file disc="/sound/strm/o_Wi-Fi_waiting32.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_circuit32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_circuit32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_farm_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_farm_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_kinoko_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_kinoko_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_FACTORY_N.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_FACTORY_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_shopping32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_shopping32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_snowboard32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_snowboard32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_TRUCK_N.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_TRUCK_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_daisy32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_daisy32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_WATER_N.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_WATER_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_maple_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_maple_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_volcano32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_volcano32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_DESERT_N.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_DESERT_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_RIDGEHIGHWAY_N.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_RIDGEHIGHWAY_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_KOOPA_N.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/STRM_N_KOOPA_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_rainbow32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/n_rainbow32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_gc_beach32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_gc_beach32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_ds_jungle32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_ds_jungle32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_sfc_obake32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_sfc_obake32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_64_circuit32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_64_circuit32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_64_sherbet32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_64_sherbet32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_agb_beach32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_agb_beach32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_ds_town32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_ds_town32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_gc_stadium32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_gc_stadium32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_ds_desert32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_ds_desert32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_agb_kuppa32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_agb_kuppa32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_64_jungle32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_64_jungle32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_gc_circuit32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_gc_circuit32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_sfc_circuit32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_sfc_circuit32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_ds_garden32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_ds_garden32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_gc_mountain32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_gc_mountain32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_64_kuppa32_n.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+    <file disc="/sound/strm/r_64_kuppa32_F.brstm" external="/mkwii/Custom Music Hacks/NoMusic/NoMusic.brstm" />
+  </patch>
+
+  <patch id="redirectsave"> 
+     <savegame clone="true" external="/riivolution/save/{$__gameid}{$__region}"/> 
+  </patch>
+
+
+
+  <patch id="CTsFTW">
+    <file disc="/Race/Course/40.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/kinoko_course/mushroom_peaks.szs" create="true" />
+    <file disc="/Race/Course/40_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/kinoko_course/mushroom_peaks.szs" create="true" />
+
+    <file disc="/Race/Course/41.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_garden_ds/chomp_valley.szs" create="true" />
+    <file disc="/Race/Course/41_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_garden_ds/chomp_valley.szs" create="true" />
+
+    <file disc="/Race/Course/44.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/koopa_course/snes_bowser_castle_2.szs" create="true"/>
+    <file disc="/Race/Course/44_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/koopa_course/snes_bowser_castle_2.szs" create="true"/>
+
+    <file disc="/Race/Course/45.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_falls_ds/codename_bigbox.szs" create="true" />
+    <file disc="/Race/Course/45_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_falls_ds/codename_bigbox.szs" create="true" />
+
+    <file disc="/Race/Course/46.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_koopa_gba/thwomp_cave.szs" create="true" />
+    <file disc="/Race/Course/46_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_koopa_gba/thwomp_cave.szs" create="true" />
+
+    <file disc="/Race/Course/47.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_mario_sfc/snes_mario_circuit_1.szs"  create="true" />
+    <file disc="/Race/Course/47_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_mario_sfc/snes_mario_circuit_1.szs" create="true" />
+
+    <file disc="/Race/Course/48.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_heyho_gba/gba_cheep_cheep_island.szs" create="true" />
+    <file disc="/Race/Course/48_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_heyho_gba/gba_cheep_cheep_island.szs" create="true" />
+
+    <file disc="/Race/Course/49.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_sherbet_64/northpole_slide.szs" create="true"/>
+    <file disc="/Race/Course/49_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_sherbet_64/northpole_slide.szs" create="true"/>
+
+    <file disc="/Race/Course/4A.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/rainbow_course/snes_rainbow_road.szs" create="true"/>
+    <file disc="/Race/Course/4A_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/rainbow_course/snes_rainbow_road.szs" create="true"/>
+
+    <file disc="/Race/Course/4B.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/ridgehighway_course/space_road.szs" create="true"/>
+    <file disc="/Race/Course/4B_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/ridgehighway_course/space_road.szs" create="true"/>
+
+    <file disc="/Race/Course/4C.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_peach_gc/green_hill_zone.szs" create="true"/>
+    <file disc="/Race/Course/4C_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_peach_gc/green_hill_zone.szs" create="true"/>
+
+    <file disc="/Race/Course/4D.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/truck_course/asdf_course.szs" create="true"/>
+    <file disc="/Race/Course/4D_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/truck_course/asdf_course.szs" create="true"/>
+
+    <file disc="/Race/Course/4E.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/beginner_course/luigis_island.szs" create="true"/>
+    <file disc="/Race/Course/4E_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/beginner_course/luigis_island.szs" create="true"/>
+
+    <file disc="/Race/Course/4F.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_donkey_64/jungle_safari.szs" create="true"/>
+    <file disc="/Race/Course/4F_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_donkey_64/jungle_safari.szs" create="true"/>
+
+    <file disc="/Race/Course/50.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/senior_course/penguin_canyon.szs" create="true"/>
+    <file disc="/Race/Course/50_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/senior_course/penguin_canyon.szs" create="true"/>
+
+    <file disc="/Race/Course/51.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/volcano_course/incendia_castle.szs" create="true"/>
+    <file disc="/Race/Course/51_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/volcano_course/incendia_castle.szs" create="true"/>
+
+    <file disc="/Race/Course/52.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/farm_course/sunset_forest.szs" create="true"/>
+    <file disc="/Race/Course/52_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/farm_course/sunset_forest.szs" create="true"/>
+
+    <file disc="/Race/Course/53.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_waluigi_gc/warios_lair.szs" create="true"/>
+    <file disc="/Race/Course/53_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_waluigi_gc/warios_lair.szs" create="true"/>
+
+    <file disc="/Race/Course/54.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/boardcross_course/haunted_woods.szs" create="true"/>
+    <file disc="/Race/Course/54_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/boardcross_course/haunted_woods.szs" create="true"/>
+
+    <file disc="/Race/Course/55.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/castle_course/rezway.szs" create="true"/>
+    <file disc="/Race/Course/55_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/castle_course/rezway.szs" create="true"/>
+
+    <file disc="/Race/Course/56.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_mario_gc/kartwood_creek.szs" create="true"/>
+    <file disc="/Race/Course/56_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_mario_gc/kartwood_creek.szs" create="true"/>
+
+    <file disc="/Race/Course/57.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/treehouse_course/fishdom_island.szs" create="true"/>
+    <file disc="/Race/Course/57_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/treehouse_course/fishdom_island.szs" create="true"/>
+
+    <file disc="/Race/Course/58.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/shopping_course/gcn_rainbow_road.szs" create="true"/>
+    <file disc="/Race/Course/58_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/shopping_course/gcn_rainbow_road.szs" create="true"/>
+
+    <file disc="/Race/Course/59.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_mario_64/n64_royal_raceway.szs" create="true"/>
+    <file disc="/Race/Course/59_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_mario_64/n64_royal_raceway.szs" create="true"/>
+
+    <file disc="/Race/Course/5A.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_town_ds/n64_yoshi_valley.szs" create="true"/>
+    <file disc="/Race/Course/5A_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_town_ds/n64_yoshi_valley.szs" create="true"/>
+
+    <file disc="/Race/Course/5B.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_donkey_gc/ds_airship_fortress.szs" create="true"/>
+    <file disc="/Race/Course/5B_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_donkey_gc/ds_airship_fortress.szs" create="true"/>
+
+    <file disc="/Race/Course/5C.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/SixKingLabyrinth/SixKingLabyrinth129.szs" create="true"/>
+    <file disc="/Race/Course/5C_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/SixKingLabyrinth/SixKingLabyrinth129.szs" create="true"/>
+
+    <file disc="/Race/Course/5D.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/desert_course/gba_rainbow_road.szs" create="true" />
+    <file disc="/Race/Course/5D_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/desert_course/gba_rainbow_road.szs" create="true" />
+ 
+    <file disc="/Race/Course/5E.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/factory_course/gba_sky_garden.szs" create="true"/>
+    <file disc="/Race/Course/5E_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/factory_course/gba_sky_garden.szs" create="true"/>
+
+    <file disc="/Race/Course/5F.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT1.szs" create="true"/>
+    <file disc="/Race/Course/5F_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT1.szs" create="true"/>
+
+    <file disc="/Race/Course/60.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT2.szs" create="true"/>
+    <file disc="/Race/Course/60_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT2.szs" create="true"/>
+
+    <file disc="/Race/Course/61.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT3.szs" create="true"/>
+    <file disc="/Race/Course/61_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT3.szs" create="true"/>
+
+    <file disc="/Race/Course/62.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT4.szs" create="true"/>
+    <file disc="/Race/Course/62_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT4.szs" create="true"/>
+
+    <file disc="/Race/Course/63.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT5.szs" create="true"/>
+    <file disc="/Race/Course/63_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT5.szs" create="true"/>
+
+    <file disc="/Race/Course/64.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT6.szs" create="true"/>
+    <file disc="/Race/Course/64_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT6.szs" create="true"/>
+
+    <file disc="/Race/Course/65.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT7.szs" create="true"/>
+    <file disc="/Race/Course/65_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewC7.szs" create="true"/>
+
+    <file disc="/Race/Course/66.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT8.szs" create="true"/>
+    <file disc="/Race/Course/66_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT8.szs" create="true"/>
+
+    <file disc="/Race/Course/67.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT9.szs" create="true"/>
+    <file disc="/Race/Course/67_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCT9.szs" create="true"/>
+
+    <file disc="/Race/Course/68.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCTA.szs" create="true"/>
+    <file disc="/Race/Course/68_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCTA.szs" create="true"/>
+
+    <file disc="/Race/Course/69.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCTB.szs" create="true"/>
+    <file disc="/Race/Course/69_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCTB.szs" create="true"/>
+
+    <file disc="/Race/Course/6A.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCTC.szs" create="true"/>
+    <file disc="/Race/Course/6A_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCTC_d.szs" create="true"/>
+
+    <file disc="/Race/Course/6B.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCTD.szs" create="true"/>
+    <file disc="/Race/Course/6B_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCTD.szs" create="true"/>
+
+    <file disc="/Race/Course/6C.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCTE.szs" create="true"/>
+    <file disc="/Race/Course/6C_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCTE.szs" create="true"/>
+
+    <file disc="/Race/Course/6D.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCTF.szs" create="true"/>
+    <file disc="/Race/Course/6D_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCTF.szs" create="true"/>
+
+    <file disc="/Race/Course/6E.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCTG.szs" create="true"/>
+    <file disc="/Race/Course/6E_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level2/NewCTG.szs" create="true"/>
+
+    <file disc="/Race/Course/6F.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/6F.szs" create="true"/>
+    <file disc="/Race/Course/6F_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/6F.szs" create="true"/>
+
+    <file disc="/Race/Course/70.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/70.szs" create="true"/>
+    <file disc="/Race/Course/70_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/70.szs" create="true"/>
+
+    <file disc="/Race/Course/71.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/71.szs" create="true"/>
+    <file disc="/Race/Course/71_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/71.szs" create="true"/>
+
+    <file disc="/Race/Course/72.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/72.szs" create="true"/>
+    <file disc="/Race/Course/72_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/72.szs" create="true"/>
+
+    <file disc="/Race/Course/73.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/73.szs" create="true"/>
+    <file disc="/Race/Course/73_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/73.szs" create="true"/>
+
+    <file disc="/Race/Course/74.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/74.szs" create="true"/>
+    <file disc="/Race/Course/74_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/74.szs" create="true"/>
+
+    <file disc="/Race/Course/75.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/75.szs" create="true"/>
+    <file disc="/Race/Course/75_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/75.szs" create="true"/>
+
+    <file disc="/Race/Course/76.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/76.szs" create="true"/>
+    <file disc="/Race/Course/76_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/76.szs" create="true"/>
+
+    <file disc="/Race/Course/77.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/77.szs" create="true"/>
+    <file disc="/Race/Course/77_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/77.szs" create="true"/>
+
+    <file disc="/Race/Course/78.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/78.szs" create="true"/>
+    <file disc="/Race/Course/78_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/78.szs" create="true"/>
+
+    <file disc="/Race/Course/79.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/79.szs" create="true"/>
+    <file disc="/Race/Course/79_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/79.szs" create="true"/>
+
+    <file disc="/Race/Course/7A.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/7A.szs" create="true"/>
+    <file disc="/Race/Course/7A_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/7A.szs" create="true"/>
+
+    <file disc="/Race/Course/7B.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/7B.szs" create="true"/>
+    <file disc="/Race/Course/7B_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/7B.szs" create="true"/>
+
+    <file disc="/Race/Course/7C.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/7C.szs" create="true"/>
+    <file disc="/Race/Course/7C_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/7C.szs" create="true"/>
+
+    <file disc="/Race/Course/7D.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/7D.szs" create="true"/>
+    <file disc="/Race/Course/7D_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/7D.szs" create="true"/>
+
+    <file disc="/Race/Course/7E.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/7E.szs" create="true"/>
+    <file disc="/Race/Course/7E_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/7E.szs" create="true"/>
+
+    <file disc="/Race/Course/7F.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/7F.szs" create="true"/>
+    <file disc="/Race/Course/7F_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/7F.szs" create="true"/>
+
+    <file disc="/Race/Course/80.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/80.szs" create="true"/>
+    <file disc="/Race/Course/80_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/80.szs" create="true"/>
+
+    <file disc="/Race/Course/81.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/81.szs" create="true"/>
+    <file disc="/Race/Course/81_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/81.szs" create="true"/>
+
+    <file disc="/Race/Course/82.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/82.szs" create="true"/>
+    <file disc="/Race/Course/82_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/82.szs" create="true"/>
+
+    <file disc="/Race/Course/83.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/83.szs" create="true"/>
+    <file disc="/Race/Course/83_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/83.szs" create="true"/>
+
+    <file disc="/Race/Course/84.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/84.szs" create="true"/>
+    <file disc="/Race/Course/84_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/84.szs" create="true"/>
+
+    <file disc="/Race/Course/85.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/85.szs" create="true"/>
+    <file disc="/Race/Course/85_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/85.szs" create="true"/>
+
+    <file disc="/Race/Course/86.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/86.szs" create="true"/>
+    <file disc="/Race/Course/86_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/86.szs" create="true"/>
+
+    <file disc="/Race/Course/87.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/87.szs" create="true"/>
+    <file disc="/Race/Course/87_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/87.szs" create="true"/>
+
+    <file disc="/Race/Course/88.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/88.szs" create="true"/>
+    <file disc="/Race/Course/88_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/88.szs" create="true"/>
+
+    <file disc="/Race/Course/89.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/89.szs" create="true"/>
+    <file disc="/Race/Course/89_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/89.szs" create="true"/>
+
+    <file disc="/Race/Course/8A.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/8A.szs" create="true"/>
+    <file disc="/Race/Course/8A_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/8A.szs" create="true"/>
+
+    <file disc="/Race/Course/8B.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/8B.szs" create="true"/>
+    <file disc="/Race/Course/8B_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/8B_d.szs" create="true"/>
+
+    <file disc="/Race/Course/8C.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/8C.szs" create="true"/>
+    <file disc="/Race/Course/8C_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/8C.szs" create="true"/>
+
+    <file disc="/Race/Course/8D.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/8D.szs" create="true"/>
+    <file disc="/Race/Course/8D_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/8D.szs" create="true"/>
+
+    <file disc="/Race/Course/8E.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/8E.szs" create="true"/>
+    <file disc="/Race/Course/8E_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/8E.szs" create="true"/>
+
+    <file disc="/Race/Course/8F.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/8F.szs" create="true"/>
+    <file disc="/Race/Course/8F_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/8F.szs" create="true"/>
+
+    <file disc="/Race/Course/90.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/90.szs" create="true"/>
+    <file disc="/Race/Course/90_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/90.szs" create="true"/>
+
+    <file disc="/Race/Course/91.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/91.szs" create="true"/>
+    <file disc="/Race/Course/91_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/91.szs" create="true"/>
+
+    <file disc="/Race/Course/92.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/92.szs" create="true"/>
+    <file disc="/Race/Course/92_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/92.szs" create="true"/>
+
+    <file disc="/Race/Course/93.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/93.szs" create="true"/>
+    <file disc="/Race/Course/93_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/93.szs" create="true"/>
+
+    <file disc="/Race/Course/94.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/94.szs" create="true"/>
+    <file disc="/Race/Course/94_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/94.szs" create="true"/>
+
+    <file disc="/Race/Course/95.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/95.szs" create="true"/>
+    <file disc="/Race/Course/95_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/95.szs" create="true"/>
+
+    <file disc="/Race/Course/96.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/96.szs" create="true"/>
+    <file disc="/Race/Course/96_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/96.szs" create="true"/>
+
+    <file disc="/Race/Course/97.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/97.szs" create="true"/>
+    <file disc="/Race/Course/97_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/97_d.szs" create="true"/>
+
+    <file disc="/Race/Course/98.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/98.szs" create="true"/>
+    <file disc="/Race/Course/98_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/98.szs" create="true"/>
+
+    <file disc="/Race/Course/99.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/99.szs" create="true"/>
+    <file disc="/Race/Course/99_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/99.szs" create="true"/>
+
+    <file disc="/Race/Course/9A.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/9A.szs" create="true"/>
+    <file disc="/Race/Course/9A_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/9A.szs" create="true"/>
+
+    <file disc="/Race/Course/9B.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/9B.szs" create="true"/>
+    <file disc="/Race/Course/9B_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/9B.szs" create="true"/>
+
+    <file disc="/Race/Course/9C.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/9C.szs" create="true"/>
+    <file disc="/Race/Course/9C_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/9C.szs" create="true"/>
+
+    <file disc="/Race/Course/9D.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/9D.szs" create="true"/>
+    <file disc="/Race/Course/9D_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/9D.szs" create="true"/>
+
+    <file disc="/Race/Course/9E.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/9E.szs" create="true"/>
+    <file disc="/Race/Course/9E_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/9E_d.szs" create="true"/>
+
+    <file disc="/Race/Course/9F.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/9F.szs" create="true"/>
+    <file disc="/Race/Course/9F_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/9F.szs" create="true"/>
+
+    <file disc="/Race/Course/A0.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A0.szs" create="true"/>
+    <file disc="/Race/Course/A0_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A0.szs" create="true"/>
+
+    <file disc="/Race/Course/A1.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A1.szs" create="true"/>
+    <file disc="/Race/Course/A1_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A1.szs" create="true"/>
+
+    <file disc="/Race/Course/A2.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A2.szs" create="true"/>
+    <file disc="/Race/Course/A2_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A2.szs" create="true"/>
+
+    <file disc="/Race/Course/A3.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A3.szs" create="true"/>
+    <file disc="/Race/Course/A3_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A3.szs" create="true"/>
+
+    <file disc="/Race/Course/A4.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A4.szs" create="true"/>
+    <file disc="/Race/Course/A4_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A4.szs" create="true"/>
+
+    <file disc="/Race/Course/A5.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A5.szs" create="true"/>
+    <file disc="/Race/Course/A5_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A5.szs" create="true"/>
+
+    <file disc="/Race/Course/A6.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A6.szs" create="true"/>
+    <file disc="/Race/Course/A6_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A6.szs" create="true"/>
+
+    <file disc="/Race/Course/A7.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A7.szs" create="true"/>
+    <file disc="/Race/Course/A7_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A7.szs" create="true"/>
+
+    <file disc="/Race/Course/A8.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A8.szs" create="true"/>
+    <file disc="/Race/Course/A8_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A8.szs" create="true"/>
+
+    <file disc="/Race/Course/A9.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A9.szs" create="true"/>
+    <file disc="/Race/Course/A9_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.00.0000/A9.szs" create="true"/>
+
+    <file disc="/Race/Course/kinoko_course.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/02.szs" create="true"/>
+    <file disc="/Race/Course/kinoko_course.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/02.szs" create="true"/>
+
+    <file disc="/Race/Course/volcano_course.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/03.szs" create="true"/>
+    <file disc="/Race/Course/volcano_course_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/03.szs" create="true"/>
+
+    <file disc="/Race/Course/shopping_course.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/05.szs" create="true"/>
+    <file disc="/Race/Course/shopping_course_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/05.szs" create="true"/>
+
+    <file disc="/Race/Course/truck_course.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/07.szs" create="true"/>
+    <file disc="/Race/Course/truck_course_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/07.szs" create="true"/>
+
+    <file disc="/Race/Course/AA.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/AA.szs" create="true"/>
+    <file disc="/Race/Course/AA_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/AA.szs" create="true"/>
+
+    <file disc="/Race/Course/AB.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/AB.szs" create="true"/>
+    <file disc="/Race/Course/AB_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/AB.szs" create="true"/>
+
+    <file disc="/Race/Course/AC.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/AC.szs" create="true"/>
+    <file disc="/Race/Course/AC_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/AC_d.szs" create="true"/>
+
+    <file disc="/Race/Course/AD.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/AD.szs" create="true"/>
+    <file disc="/Race/Course/AD_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/AD.szs" create="true"/>
+
+    <file disc="/Race/Course/AE.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/AE.szs" create="true"/>
+    <file disc="/Race/Course/AE_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/AE.szs" create="true"/>
+
+    <file disc="/Race/Course/AF.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/AF.szs" create="true"/>
+    <file disc="/Race/Course/AF_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/AF.szs" create="true"/>
+
+    <file disc="/Race/Course/B0.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B0.szs" create="true"/>
+    <file disc="/Race/Course/B0_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B0.szs" create="true"/>
+
+    <file disc="/Race/Course/B1.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B1.szs" create="true"/>
+    <file disc="/Race/Course/B1_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B1.szs" create="true"/>
+
+    <file disc="/Race/Course/B2.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B2.szs" create="true"/>
+    <file disc="/Race/Course/B2_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B2_d.szs" create="true"/>
+
+    <file disc="/Race/Course/B3.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B3.szs" create="true"/>
+    <file disc="/Race/Course/B3_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B3.szs" create="true"/>
+
+    <file disc="/Race/Course/B4.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B4.szs" create="true"/>
+    <file disc="/Race/Course/B4_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B4.szs" create="true"/>
+
+    <file disc="/Race/Course/B5.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B5.szs" create="true"/>
+    <file disc="/Race/Course/B5_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B5.szs" create="true"/>
+
+    <file disc="/Race/Course/B6.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B6.szs" create="true"/>
+    <file disc="/Race/Course/B6_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B6.szs" create="true"/>
+
+    <file disc="/Race/Course/B7.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B7.szs" create="true"/>
+    <file disc="/Race/Course/B7_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B7.szs" create="true"/>
+
+    <file disc="/Race/Course/B8.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B8.szs" create="true"/>
+    <file disc="/Race/Course/B8_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B8.szs" create="true"/>
+
+    <file disc="/Race/Course/B9.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B9.szs" create="true"/>
+    <file disc="/Race/Course/B9_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/B9.szs" create="true"/>
+
+    <file disc="/Race/Course/BA.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/BA.szs" create="true"/>
+    <file disc="/Race/Course/BA_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/BA.szs" create="true"/>
+
+    <file disc="/Race/Course/BB.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/BB.szs" create="true"/>
+    <file disc="/Race/Course/BB_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/BB.szs" create="true"/>
+
+    <file disc="/Race/Course/BC.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/BC.szs" create="true"/>
+    <file disc="/Race/Course/BC_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/BC.szs" create="true"/>
+
+    <file disc="/Race/Course/BD.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/BD.szs" create="true"/>
+    <file disc="/Race/Course/BD_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/BD.szs" create="true"/>
+
+    <file disc="/Race/Course/BE.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/BE.szs" create="true"/>
+    <file disc="/Race/Course/BE_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/BE.szs" create="true"/>
+
+    <file disc="/Race/Course/BF.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/BF.szs" create="true"/>
+    <file disc="/Race/Course/BF_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/BF.szs" create="true"/>
+
+    <file disc="/Race/Course/C0.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/C0.szs" create="true"/>
+    <file disc="/Race/Course/C0_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/C0.szs" create="true"/>
+
+    <file disc="/Race/Course/C1.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/C1.szs" create="true"/>
+    <file disc="/Race/Course/C1_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.01.0000/C1.szs" create="true"/>
+
+    <file disc="/Race/Course/C2.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/C2.szs" create="true"/>
+    <file disc="/Race/Course/C2_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/C2.szs" create="true"/>
+
+    <file disc="/Race/Course/C3.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/C3.szs" create="true"/>
+    <file disc="/Race/Course/C3_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/C3.szs" create="true"/>
+
+    <file disc="/Race/Course/C4.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/C4.szs" create="true"/>
+    <file disc="/Race/Course/C4_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/C4.szs" create="true"/>
+
+    <file disc="/Race/Course/C5.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/C5.szs" create="true"/>
+    <file disc="/Race/Course/C5_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/C5.szs" create="true"/>
+
+    <file disc="/Race/Course/C6.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/C6.szs" create="true"/>
+    <file disc="/Race/Course/C6_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/C6.szs" create="true"/>
+
+    <file disc="/Race/Course/C7.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/C7.szs" create="true"/>
+    <file disc="/Race/Course/C7_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/C7.szs" create="true"/>
+
+    <file disc="/Race/Course/C8.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/C8.szs" create="true"/>
+    <file disc="/Race/Course/C8_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/C8.szs" create="true"/>
+
+    <file disc="/Race/Course/C9.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/C9.szs" create="true"/>
+    <file disc="/Race/Course/C9_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/C9.szs" create="true"/>
+
+    <file disc="/Race/Course/CA.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/CA.szs" create="true"/>
+    <file disc="/Race/Course/CA_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/CA.szs" create="true"/>
+
+    <file disc="/Race/Course/CB.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/CB.szs" create="true"/>
+    <file disc="/Race/Course/CB_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/CB.szs" create="true"/>
+
+    <file disc="/Race/Course/CC.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/CC.szs" create="true"/>
+    <file disc="/Race/Course/CC_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/CC.szs" create="true"/>
+
+    <file disc="/Race/Course/CD.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/CD.szs" create="true"/>
+    <file disc="/Race/Course/CD_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/CD.szs" create="true"/>
+
+    <file disc="/Race/Course/CE.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/CE.szs" create="true"/>
+    <file disc="/Race/Course/CE_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/CE.szs" create="true"/>
+
+    <file disc="/Race/Course/CF.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/CF.szs" create="true"/>
+    <file disc="/Race/Course/CF_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/CF.szs" create="true"/>
+
+    <file disc="/Race/Course/D0.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D0.szs" create="true"/>
+    <file disc="/Race/Course/D0_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D0.szs" create="true"/>
+
+    <file disc="/Race/Course/D1.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D1.szs" create="true"/>
+    <file disc="/Race/Course/D1_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D1.szs" create="true"/>
+
+    <file disc="/Race/Course/D2.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D2.szs" create="true"/>
+    <file disc="/Race/Course/D2_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D2.szs" create="true"/>
+
+    <file disc="/Race/Course/D3.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D3.szs" create="true"/>
+    <file disc="/Race/Course/D3_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D3.szs" create="true"/>
+
+    <file disc="/Race/Course/D4.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D4.szs" create="true"/>
+    <file disc="/Race/Course/D4_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D4.szs" create="true"/>
+
+    <file disc="/Race/Course/D5.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D5.szs" create="true"/>
+    <file disc="/Race/Course/D5_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D5.szs" create="true"/>
+
+    <file disc="/Race/Course/D6.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D6.szs" create="true"/>
+    <file disc="/Race/Course/D6_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D6.szs" create="true"/>
+
+    <file disc="/Race/Course/D7.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D7.szs" create="true"/>
+    <file disc="/Race/Course/D7_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D7.szs" create="true"/>
+
+    <file disc="/Race/Course/D8.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D8.szs" create="true"/>
+    <file disc="/Race/Course/D8_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D8.szs" create="true"/>
+
+    <file disc="/Race/Course/D9.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D9.szs" create="true"/>
+    <file disc="/Race/Course/D9_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/D9.szs" create="true"/>
+
+    <file disc="/Race/Course/DA.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/DA.szs" create="true"/>
+    <file disc="/Race/Course/DA_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/DA.szs" create="true"/>
+
+    <file disc="/Race/Course/DB.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/DB.szs" create="true"/>
+    <file disc="/Race/Course/DB_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/DB.szs" create="true"/>
+
+    <file disc="/Race/Course/DC.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/DC.szs" create="true"/>
+    <file disc="/Race/Course/DC_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/DC.szs" create="true"/>
+
+    <file disc="/Race/Course/DD.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/DD.szs" create="true"/>
+    <file disc="/Race/Course/DD_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/DD.szs" create="true"/>
+
+    <file disc="/Race/Course/DE.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/DE.szs" create="true"/>
+    <file disc="/Race/Course/DE_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/DE.szs" create="true"/>
+
+    <file disc="/Race/Course/DF.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/DF.szs" create="true"/>
+    <file disc="/Race/Course/DF_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/DF.szs" create="true"/>
+
+    <file disc="/Race/Course/E0.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E0.szs" create="true"/>
+    <file disc="/Race/Course/E0_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E0.szs" create="true"/>
+
+    <file disc="/Race/Course/E1.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E1.szs" create="true"/>
+    <file disc="/Race/Course/E1_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E1.szs" create="true"/>
+
+    <file disc="/Race/Course/E2.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E2.szs" create="true"/>
+    <file disc="/Race/Course/E2_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E2.szs" create="true"/>
+
+    <file disc="/Race/Course/E3.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E3.szs" create="true"/>
+    <file disc="/Race/Course/E3_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E3.szs" create="true"/>
+
+    <file disc="/Race/Course/E4.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E4.szs" create="true"/>
+    <file disc="/Race/Course/E4_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E4.szs" create="true"/>
+
+    <file disc="/Race/Course/E5.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E5.szs" create="true"/>
+    <file disc="/Race/Course/E5_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E5.szs" create="true"/>
+
+    <file disc="/Race/Course/E6.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E6.szs" create="true"/>
+    <file disc="/Race/Course/E6_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E6.szs" create="true"/>
+
+    <file disc="/Race/Course/E7.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E7.szs" create="true"/>
+    <file disc="/Race/Course/E7_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E7_d.szs" create="true"/>
+
+    <file disc="/Race/Course/E8.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E8.szs" create="true"/>
+    <file disc="/Race/Course/E8_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E8.szs" create="true"/>
+
+    <file disc="/Race/Course/E9.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E9.szs" create="true"/>
+    <file disc="/Race/Course/E9_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/E9.szs" create="true"/>
+
+    <file disc="/Race/Course/EA.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/EA.szs" create="true"/>
+    <file disc="/Race/Course/EA_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/EA.szs" create="true"/>
+
+    <file disc="/Race/Course/EB.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/EB.szs" create="true"/>
+    <file disc="/Race/Course/EB_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/EB.szs" create="true"/>
+
+    <file disc="/Race/Course/EC.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/EC.szs" create="true"/>
+    <file disc="/Race/Course/EC_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/EC.szs" create="true"/>
+
+    <file disc="/Race/Course/ED.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/ED.szs" create="true"/>
+    <file disc="/Race/Course/ED_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/ED.szs" create="true"/>
+
+    <file disc="/Race/Course/EE.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/EE.szs" create="true"/>
+    <file disc="/Race/Course/EE_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/EE.szs" create="true"/>
+
+    <file disc="/Race/Course/EF.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/EF.szs" create="true"/>
+    <file disc="/Race/Course/EF_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/EF.szs" create="true"/>
+
+    <file disc="/Race/Course/F0.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F0.szs" create="true"/>
+    <file disc="/Race/Course/F0_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F0.szs" create="true"/>
+
+    <file disc="/Race/Course/F1.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F1.szs" create="true"/>
+    <file disc="/Race/Course/F1_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F1.szs" create="true"/>
+
+    <file disc="/Race/Course/F2.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F2.szs" create="true"/>
+    <file disc="/Race/Course/F2_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F2.szs" create="true"/>
+
+    <file disc="/Race/Course/F3.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F3.szs" create="true"/>
+    <file disc="/Race/Course/F3_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F3.szs" create="true"/>
+
+    <file disc="/Race/Course/F4.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F4.szs" create="true"/>
+    <file disc="/Race/Course/F4_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F4.szs" create="true"/>
+
+    <file disc="/Race/Course/F5.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F5.szs" create="true"/>
+    <file disc="/Race/Course/F5_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F5.szs" create="true"/>
+
+    <file disc="/Race/Course/F6.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F6.szs" create="true"/>
+    <file disc="/Race/Course/F6_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F6.szs" create="true"/>
+
+    <file disc="/Race/Course/F7.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F7.szs" create="true"/>
+    <file disc="/Race/Course/F7_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F7.szs" create="true"/>
+
+    <file disc="/Race/Course/F8.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F8.szs" create="true"/>
+    <file disc="/Race/Course/F8_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F8.szs" create="true"/>
+
+    <file disc="/Race/Course/F9.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F9.szs" create="true"/>
+    <file disc="/Race/Course/F9_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/F9.szs" create="true"/>
+
+    <file disc="/Race/Course/2A.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/2A.szs" create="true"/>
+    <file disc="/Race/Course/2A_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/2A.szs" create="true"/>
+
+    <file disc="/Race/Course/2B.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/2B.szs" create="true"/>
+    <file disc="/Race/Course/2B_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/2B.szs" create="true"/>
+
+    <file disc="/Race/Course/2C.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/2C.szs" create="true"/>
+    <file disc="/Race/Course/2C_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/2C.szs" create="true"/>
+
+    <file disc="/Race/Course/2D.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/2D.szs" create="true"/>
+    <file disc="/Race/Course/2D_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/2D.szs" create="true"/>
+
+    <file disc="/Race/Course/2E.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/2E.szs" create="true"/>
+    <file disc="/Race/Course/2E_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/2E.szs" create="true"/>
+
+    <file disc="/Race/Course/2F.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/2F.szs" create="true"/>
+    <file disc="/Race/Course/2F_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/2F.szs" create="true"/>
+
+    <file disc="/Race/Course/30.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/30.szs" create="true"/>
+    <file disc="/Race/Course/30_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/30.szs" create="true"/>
+
+    <file disc="/Race/Course/31.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/31.szs" create="true"/>
+    <file disc="/Race/Course/31_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/31.szs" create="true"/>
+
+    <file disc="/Race/Course/32.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/32.szs" create="true"/>
+    <file disc="/Race/Course/32_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/32.szs" create="true"/>
+
+    <file disc="/Race/Course/33.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/33.szs" create="true"/>
+    <file disc="/Race/Course/33_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/33.szs" create="true"/>
+
+    <file disc="/Race/Course/34.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/34.szs" create="true"/>
+    <file disc="/Race/Course/34_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/34.szs" create="true"/>
+
+    <file disc="/Race/Course/35.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/35.szs" create="true"/>
+    <file disc="/Race/Course/35_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/35.szs" create="true"/>
+
+    <file disc="/Race/Course/3B.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/3B.szs" create="true"/>
+    <file disc="/Race/Course/3B_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/3B.szs" create="true"/>
+
+    <file disc="/Race/Course/3C.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/3C.szs" create="true"/>
+    <file disc="/Race/Course/3C_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/3C.szs" create="true"/>
+
+    <file disc="/Race/Course/3D.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/3D.szs" create="true"/>
+    <file disc="/Race/Course/3D_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/3D.szs" create="true"/>
+
+    <file disc="/Race/Course/3E.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/3E.szs" create="true"/>
+    <file disc="/Race/Course/3E_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/3E.szs" create="true"/>
+
+    <file disc="/Race/Course/3F.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/3F.szs" create="true"/>
+    <file disc="/Race/Course/3F_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Revo1.02.0000/3F.szs" create="true"/>
+
+
+    <file disc="/Boot/Strap/eu/English.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/menupatch/USA/English.szs" />
+    <file disc="/Boot/Strap/eu/Dutch.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/menupatch/USA/English.szs" />
+    <file disc="/Boot/Strap/eu/French.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/menupatch/USA/English.szs" />
+    <file disc="/Boot/Strap/eu/German.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/menupatch/USA/English.szs" />
+    <file disc="/Boot/Strap/eu/Italian.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/menupatch/USA/English.szs" />
+    <file disc="/Boot/Strap/eu/Spanish_EU.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/menupatch/USA/English.szs" />
+    <file disc="/Boot/Strap/us/English.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/menupatch/USA/English.szs" />
+    <file disc="/Boot/Strap/us/French.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/menupatch/USA/French.szs" />
+    <file disc="/Boot/Strap/us/Spanish_US.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/menupatch/USA/Spanish.szs" />
+    <file disc="/Boot/Strap/jp/jp.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/menupatch/USA/English.szs" />
+
+    <file disc="/Scene/UI/Award_U.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_U.szs" />
+    <file disc="/Scene/UI/Channel_U.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_U.szs" />
+    <file disc="/Scene/UI/Event_U.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_U.szs" />
+    <file disc="/Scene/UI/Globe_U.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_U.szs" />
+    <file disc="/Scene/UI/MenuMulti_U.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_U.szs" />
+    <file disc="/Scene/UI/MenuOther_U.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_U.szs" />
+    <file disc="/Scene/UI/MenuSingle_U.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_U.szs" />
+    <file disc="/Scene/UI/Present_U.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_U.szs" />
+    <file disc="/Scene/UI/Race_U.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_U.szs" />
+    <file disc="/Scene/UI/Title_U.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_U.szs" />
+
+    <file disc="/Scene/UI/Award_M.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_M.szs" />
+    <file disc="/Scene/UI/Channel_M.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_M.szs" />
+    <file disc="/Scene/UI/Event_M.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_M.szs" />
+    <file disc="/Scene/UI/Globe_M.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_M.szs" />
+    <file disc="/Scene/UI/MenuMulti_M.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_M.szs" />
+    <file disc="/Scene/UI/MenuOther_M.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_M.szs" />
+    <file disc="/Scene/UI/MenuSingle_M.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_M.szs" />
+    <file disc="/Scene/UI/Present_M.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_M.szs" />
+    <file disc="/Scene/UI/Race_M.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_M.szs" />
+    <file disc="/Scene/UI/Title_M.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_M.szs" />
+
+    <file disc="/Scene/UI/Award_Q.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_Q.szs" />
+    <file disc="/Scene/UI/Channel_Q.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_Q.szs" />
+    <file disc="/Scene/UI/Event_Q.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_Q.szs" />
+    <file disc="/Scene/UI/Globe_Q.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_Q.szs" />
+    <file disc="/Scene/UI/MenuMulti_Q.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_Q.szs" />
+    <file disc="/Scene/UI/MenuOther_Q.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_Q.szs" />
+    <file disc="/Scene/UI/MenuSingle_Q.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_Q.szs" />
+    <file disc="/Scene/UI/Present_Q.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_Q.szs" />
+    <file disc="/Scene/UI/Race_Q.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_Q.szs" />
+    <file disc="/Scene/UI/Title_Q.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/textpatch/SuperMenu_Q.szs" />
+
+    <file disc="/Scene/UI/Title.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/menupatch/Title.szs" />
+    <file disc="/Scene/UI/Globe.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/menupatch/Globe.szs" />
+    <file disc="/Scene/UI/Channel.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/menupatch/Channel.szs" />
+    <file disc="/Scene/UI/MenuSingle.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/menupatch/MenuSingle.szs" />
+    <file disc="/Scene/UI/MenuOther.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/menupatch/MenuOther.szs" />
+    <file disc="/Scene/UI/MenuMulti.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/menupatch/MenuMulti.szs" />
+
+    <folder external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level1/USA" recursive="false" /> 
+    <folder external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/Level1/USA" disc="/" /> 
+
+
+  </patch>
+
+  <patch id="cvfix">
+    <file disc="/Race/Course/41.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_garden_ds/chomp_valley+fix.szs" create="true" />
+    <file disc="/Race/Course/41_d.szs" external="/mkwii/Custom Tracks (Bean's Latest 100+ CTs)/old_garden_ds/chomp_valley+fix.szs" create="true" />
+  </patch>
+
+<patch id="wiimmfi">
+    <folder external="/mkwii/Wiimm-Fi Patcher" recursive="false" />
+ <folder external="/mkwii/Wiimm-Fi Patcher" disc="/" />
+  </patch>
+
+  <patch id="america_regional">
+    <file disc="/rel/StaticR.rel" external="/mkwii/Custom Regionals/NTSC/America.rel" />
+  </patch>
+  <patch id="japan_regional">
+    <file disc="/rel/StaticR.rel" external="/mkwii/Custom Regionals/NTSC/Japan.rel" />
+  </patch>
+  <patch id="europe_regional">
+    <file disc="/rel/StaticR.rel" external="/mkwii/Custom Regionals/NTSC/Europe.rel" />
+  </patch>
+  <patch id="oceania_regional">
+    <file disc="/rel/StaticR.rel" external="/mkwii/Custom Regionals/NTSC/Oceania.rel" />
+  </patch>
+  <patch id="taiwan_regional">
+    <file disc="/rel/StaticR.rel" external="/mkwii/Custom Regionals/NTSC/Taiwan.rel" />
+  </patch>
+  <patch id="korea_regional">
+    <file disc="/rel/StaticR.rel" external="/mkwii/Custom Regionals/NTSC/Korea.rel" />
+  </patch>
+  <patch id="china_regional">
+    <file disc="/rel/StaticR.rel" external="/mkwii/Custom Regionals/NTSC/China.rel" />
+  </patch>
+
+  <patch id="mkw_text_edits">
+    <file disc="/Scene/UI/Award_U.szs" external="/mkwii/textpatch/Award_U.szs" />
+    <file disc="/Scene/UI/Channel_U.szs" external="/mkwii/textpatch/Channel_U.szs" />
+    <file disc="/Scene/UI/Event_U.szs" external="/mkwii/textpatch/Event_U.szs" />
+    <file disc="/Scene/UI/Globe_U.szs" external="/mkwii/textpatch/Globe_U.szs" />
+    <file disc="/Scene/UI/Globe_U.szs" external="/mkwii/textpatch/Globe_U.szs" />
+    <file disc="/Scene/UI/MenuMulti_U.szs" external="/mkwii/textpatch/MenuMulti_U.szs" />
+    <file disc="/Scene/UI/MenuMulti_U.szs" external="/mkwii/textpatch/MenuMulti_U.szs" />
+    <file disc="/Scene/UI/MenuOther_U.szs" external="/mkwii/textpatch/MenuOther_U.szs" />
+    <file disc="/Scene/UI/MenuSingle_U.szs" external="/mkwii/textpatch/MenuSingle_U.szs" />
+    <file disc="/Scene/UI/MenuSingle_U.szs" external="/mkwii/textpatch/MenuSingle_U.szs" />
+    <file disc="/Scene/UI/Present_U.szs" external="/mkwii/textpatch/Present_U.szs" />
+    <file disc="/Scene/UI/Race_U.szs" external="/mkwii/textpatch/Race_U.szs" />
+    <file disc="/Scene/UI/Award_M.szs" external="/mkwii/textpatch/Award_M.szs" />
+    <file disc="/Scene/UI/Channel_M.szs" external="/mkwii/textpatch/Channel_M.szs" />
+    <file disc="/Scene/UI/Event_M.szs" external="/mkwii/textpatch/Event_M.szs" />
+    <file disc="/Scene/UI/Globe_M.szs" external="/mkwii/textpatch/Globe_M.szs" />
+    <file disc="/Scene/UI/Globe_M.szs" external="/mkwii/textpatch/Globe_M.szs" />
+    <file disc="/Scene/UI/MenuMulti_M.szs" external="/mkwii/textpatch/MenuMulti_M.szs" />
+    <file disc="/Scene/UI/MenuMulti_M.szs" external="/mkwii/textpatch/MenuMulti_M.szs" />
+    <file disc="/Scene/UI/MenuOther_M.szs" external="/mkwii/textpatch/MenuOther_M.szs" />
+    <file disc="/Scene/UI/MenuSingle_M.szs" external="/mkwii/textpatch/MenuSingle_M.szs" />
+    <file disc="/Scene/UI/MenuSingle_M.szs" external="/mkwii/textpatch/MenuSingle_M.szs" />
+    <file disc="/Scene/UI/Present_M.szs" external="/mkwii/textpatch/Present_M.szs" />
+    <file disc="/Scene/UI/Race_M.szs" external="/mkwii/textpatch/Race_M.szs" />
+    <file disc="/Scene/UI/Award_Q.szs" external="/mkwii/textpatch/Award_Q.szs" />
+    <file disc="/Scene/UI/Channel_Q.szs" external="/mkwii/textpatch/Channel_Q.szs" />
+    <file disc="/Scene/UI/Event_Q.szs" external="/mkwii/textpatch/Event_Q.szs" />
+    <file disc="/Scene/UI/Globe_Q.szs" external="/mkwii/textpatch/Globe_Q.szs" />
+    <file disc="/Scene/UI/Globe_Q.szs" external="/mkwii/textpatch/Globe_Q.szs" />
+    <file disc="/Scene/UI/MenuMulti_Q.szs" external="/mkwii/textpatch/MenuMulti_Q.szs" />
+    <file disc="/Scene/UI/MenuMulti_Q.szs" external="/mkwii/textpatch/MenuMulti_Q.szs" />
+    <file disc="/Scene/UI/MenuOther_Q.szs" external="/mkwii/textpatch/MenuOther_Q.szs" />
+    <file disc="/Scene/UI/MenuSingle_Q.szs" external="/mkwii/textpatch/MenuSingle_Q.szs" />
+    <file disc="/Scene/UI/MenuSingle_Q.szs" external="/mkwii/textpatch/MenuSingle_Q.szs" />
+    <file disc="/Scene/UI/Present_Q.szs" external="/mkwii/textpatch/Present_Q.szs" />
+    <file disc="/Scene/UI/Race_Q.szs" external="/mkwii/textpatch/Race_Q.szs" />
+ </patch>
+
+  <patch id="font_chalky">
+    <file disc="/Scene/UI/Font.szs" external="/mkwii/fonts/Chalky.szs" />
+  </patch>
+  <patch id="font_outline">
+    <file disc="/Scene/UI/Font.szs" external="/mkwii/fonts/Outline.szs" />
+  </patch>
+  <patch id="font_boli">
+    <file disc="/Scene/UI/Font.szs" external="/mkwii/fonts/MVBoli.szs" />
+  </patch>
+
+  <patch id="ghost_database">
+    <folder external="/mkwii/Ghost Database" recursive="false" /> 
+    <folder external="/mkwii/Ghost Database" disc="/Race/TimeAttack/ghost1" /> 
+    <folder external="/mkwii/Ghost Database" disc="/Race/TimeAttack/ghost2" /> 
+  </patch>
+
+  <patch id="any_alteration_patch">
+    <folder external="/mkwii/My Stuff" recursive="false" /> 
+    <folder external="/mkwii/My Stuff" disc="/" /> 
+  </patch>
+  
+
+
+</wiidisc>
